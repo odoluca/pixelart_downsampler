@@ -1,3 +1,8 @@
+suggestions:
+for 4x4 pixel sized AI generated images:
+python pixelart_grid_fit_downsample.py .\victory_arcDeTriumph_2.png .\outputs\test-arc.png  --min-cell 4 --max-cell 4  --print-grid --workers 0 --jitter 1 --size-tweak 1 --addDateTag --majority-min-frac 0.65 --thr 12 --qbits 4 
+
+
 usage: pixelart_grid_fit_downsample.py [-h] [--min-cell MIN_CELL] [--max-cell MAX_CELL] [--cell-step CELL_STEP] [--offset-step OFFSET_STEP] [--sample-step SAMPLE_STEP] [--thr THR] [--qbits QBITS]
                                        [--majority-min-frac MAJORITY_MIN_FRAC] [--alpha-cutoff ALPHA_CUTOFF] [--jitter JITTER] [--size-tweak SIZE_TWEAK] [--alpha ALPHA] [--workers WORKERS] [--print-grid]
                                        [--anchor ANCHOR] [--addDateTag]
