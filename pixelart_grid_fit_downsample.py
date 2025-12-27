@@ -12,7 +12,7 @@ Note:
 
 Suggestions:
 for 4 by 4 pixelart:
-python pixelart_grid_fit_downsample.py .\victory_arcDeTriumph_2.png .\outputs\test-arc.png  --min-cell 4 --max-cell 4  --print-grid --workers 0 --jitter 1 --size-tweak 1 --addDateTag --majority-min-frac 0.65 --thr 12 --qbits 4
+python pixelart_grid_fit_downsample.py input.png output.png  --min-cell 4 --max-cell 4  --print-grid --workers 0 --jitter 1 --size-tweak 1 --addDateTag --majority-min-frac 0.65 --thr 12 --qbits 4
 """
 
 from __future__ import annotations
